@@ -123,7 +123,7 @@
       <EnableUAC>false</EnableUAC>
     </Link>
   </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -144,7 +144,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
       <AdditionalDependencies>Bcrypt.lib;Ws2_32.lib;Wldap32.lib;Normaliz.lib;Crypt32.lib;zstd_static.lib;%(AdditionalDependencies)</AdditionalDependencies>
-     <AdditionalLibraryDirectories>$(ProjectDir)dependencies\zstd\lib;$(ProjectDir)dependencies\lz4\lib;$(ProjectDir)dependencies\curl\lib;$(ProjectDir)dependencies\cryptopp\lib;$(ProjectDir)dependencies\cpr\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ProjectDir)dependencies\zstd\lib;$(ProjectDir)dependencies\lz4\lib;$(ProjectDir)dependencies\curl\lib;$(ProjectDir)dependencies\cpr\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <ProjectReference>
       <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
@@ -304,3 +304,4 @@
   </ImportGroup>
 
 </Project>
+
