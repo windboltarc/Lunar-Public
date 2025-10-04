@@ -9,6 +9,7 @@ It is designed to be reliable, minimal, and easy to extend.
 - Level 8 environment support
 - Built-in teleport handler
 - Simple modern UI layout
-- 20%UNC based
+- 30%UNC based
 
 Lunar-Public is intended for users who want a solid foundation for custom exploit development without unnecessary complexity.
+
