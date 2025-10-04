@@ -134,7 +134,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <LanguageStandard>stdcpplatest</LanguageStandard>
-      <AdditionalIncludeDirectories>$(ProjectDir)dependencies\zstd\include;$(ProjectDir)dependencies\Xorstr;$(ProjectDir)dependencies\nlohmann;$(ProjectDir)dependencies\lz4\include;$(ProjectDir)dependencies\imgui;$(ProjectDir)dependencies\curl\include;$(ProjectDir)dependencies\cryptopp\include;$(ProjectDir)dependencies\cpr\include;$(ProjectDir)dependencies;$(ProjectDir)module;$(ProjectDir)dependencies\luau;$(ProjectDir)dependencies\luau\VM\include;$(ProjectDir)dependencies\luau\Ast\include;$(ProjectDir)dependencies\luau\Common\include;$(ProjectDir)dependencies\luau\Compiler\include;$(ProjectDir)module\misc\update;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)dependencies\zstd\include;$(ProjectDir)dependencies\Xorstr;$(ProjectDir)dependencies\nlohmann;$(ProjectDir)dependencies\lz4\include;$(ProjectDir)dependencies\imgui;$(ProjectDir)dependencies\curl\include;$(ProjectDir)dependencies\cpr\include;$(ProjectDir)dependencies;$(ProjectDir)module;$(ProjectDir)dependencies\luau;$(ProjectDir)dependencies\luau\VM\include;$(ProjectDir)dependencies\luau\Ast\include;$(ProjectDir)dependencies\luau\Common\include;$(ProjectDir)dependencies\luau\Compiler\include;$(ProjectDir)module\misc\update;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard_C>stdclatest</LanguageStandard_C>
     </ClCompile>
     <Link>
@@ -144,7 +144,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
       <AdditionalDependencies>Bcrypt.lib;Ws2_32.lib;Wldap32.lib;Normaliz.lib;Crypt32.lib;zstd_static.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(ProjectDir)dependencies\cryptopp;$(ProjectDir)dependencies\zstd\lib;$(ProjectDir)dependencies\lz4\lib;$(ProjectDir)dependencies\curl\lib;$(ProjectDir)dependencies\cryptopp\lib;$(ProjectDir)dependencies\cpr\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+     <AdditionalLibraryDirectories>$(ProjectDir)dependencies\zstd\lib;$(ProjectDir)dependencies\lz4\lib;$(ProjectDir)dependencies\curl\lib;$(ProjectDir)dependencies\cryptopp\lib;$(ProjectDir)dependencies\cpr\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <ProjectReference>
       <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
@@ -302,4 +302,5 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
+
 </Project>
